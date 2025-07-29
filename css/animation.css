@@ -1,0 +1,29 @@
+/*页面切换*/
+@keyframes op{
+	from{opacity: 1;}
+	to{opacity: 0;}
+}
+.op{
+	animation: op .5s linear;
+}
+/*放大动画*/
+@keyframes suofang{
+	from{transform: scale(1);}
+	to{transform: scale(1.2);}
+}
+.sufang{
+	animation: suofang 2s linear infinite alternate;
+}
+/*音乐动画*/
+@keyframes music{
+	from{transform: rotate(0);}
+	to{transform: rotate(360deg);}
+}
+/*按钮出现动画*/
+@keyframes btn-in{
+	from{transform: translateX(-6rem);}
+	to{transform: translateX(0);}
+}
+.btn-in{
+	animation: btn-in 2s linear forwards;
+}

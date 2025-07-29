@@ -1,0 +1,278 @@
+.page1 {
+	justify-content: center;
+	align-items: center;
+	background: url(../img/bg-1.png) center/cover no-repeat;
+}
+
+.lion {
+	width: .93rem;
+	height: 1.02rem;
+	position: absolute;
+	top: -.3rem;
+	transform: translateX(-.5rem);
+}
+
+.load-frame {
+	transform: translateY(-1rem);
+}
+
+.load-bar {
+	position: relative;
+}
+
+.load-text {
+	position: absolute;
+	transform: translateY(-.5rem);
+	color: #fff;
+}
+
+.flover img {
+	position: absolute;
+	opacity: 0;
+}
+
+.page2 {
+	align-items: center;
+	background: url(../img/bg.png) center/cover no-repeat;
+}
+
+.page2-cen {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.deng-l {
+	position: absolute;
+	width: 1.6rem;
+	height: 5.1rem;
+	top: 1.29rem;
+	left: .79rem;
+	animation: baidong 3s alternate infinite;
+	transform-origin: top;
+}
+
+.deng-r {
+	width: 1.77rem;
+	height: 5.56rem;
+	position: absolute;
+	left: 4.91rem;
+	top: 3.42rem;
+	animation: baidong 3s alternate infinite;
+	transform-origin: top;
+}
+
+.p2-button {
+	position: absolute;
+	top: 10.13rem;
+	width: 4.35rem;
+	height: 2.02rem;
+	background: url(../img/button.png) center/contain no-repeat;
+}
+
+.yun {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.page3 {
+	align-items: center;
+	background: url(../img/bg.png) center/cover no-repeat;
+}
+
+.juanzhou {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url(../img/juanzhou.png) top/cover no-repeat;
+	bottom: 0;
+	z-index: 0;
+}
+
+.jieshao {
+	position: absolute;
+	width: 3.61rem;
+	top: 3.44rem;
+}
+
+.juanzhou p {
+	margin-bottom: .3rem;
+	width: 3.65rem;
+}
+
+.juanzhou .p1 {
+	margin-top: 4.9rem;
+}
+
+button {
+	position: absolute;
+	bottom: 1.2rem;
+	width: 4.35rem;
+	height: 2.02rem;
+	background: url(../img/button.png) center/contain no-repeat;
+	color: #ffe9be;
+	font-size: .4rem;
+	line-height: 2.1rem;
+}
+
+
+/*第四页*/
+
+.page4 {
+	align-items: center;
+	background: url(../img/bg.png) center/cover no-repeat;
+}
+
+.dengmi-frame {
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: url(../img/p4-cen.png) bottom/contain no-repeat;
+	z-index: 5;
+}
+
+.dengmi {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	width: 4.5rem;
+	height: 8.5rem;
+	/*background: #fff;*/
+	position: absolute;
+	bottom: 1.5rem;
+}
+
+.dengmi>div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.mi {
+	width: .95rem;
+	height: 2.56rem;
+}
+
+.tips {
+	position: absolute;
+	font-size: .16rem;
+	color: #b20610;
+	bottom: 1.2rem;
+	font-weight: bold;
+}
+
+.page5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	z-index: 6;
+	display: none;
+}
+
+.tframe {
+	width: 6.73rem;
+	height: 7.33rem;
+	background: url(../img/t-frame.png) center/cover no-repeat;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	transform: translateX(-.1rem);
+}
+
+.tframe hgroup {
+	position: relative;
+	text-align: center;
+	top: 1.3rem;
+}
+
+.tframe hgroup h2 {
+	letter-spacing: .2em;
+	font-size: .3rem;
+}
+
+.tframe hgroup h3 {
+	font-size: .25rem;
+}
+
+.timu {
+	position: absolute;
+	display: flex;
+	flex-flow: column;
+	margin-top: 2.35rem;
+	left: 2.3rem;
+}
+
+.timu label {
+	margin-bottom: .1rem;
+}
+
+.timu input {
+	appearance: none;
+}
+
+.timu i {
+	display: inline-block;
+	width: .21rem;
+	height: .21rem;
+	background: url(../img/o.png) center/contain no-repeat;
+	margin-right: .2rem;
+}
+
+#button {
+	position: absolute;
+	top: 2.5rem;
+	height: 1.22rem;
+	width: 2.86rem;
+	background: url(../img/button.png) center/contain no-repeat;
+	color: #ffe9be;
+	font-size: .3rem;
+	line-height: 1.3rem;
+	text-align: center;
+	transform: translateX(-.1rem);
+}
+
+.cuowu {
+	position: relative;
+	top: -1rem;
+	padding: .1rem .2rem;
+	background: rgba(0, 0, 0, .5);
+	transform: translateX(-.1rem);
+	border-radius: .4rem;
+	color: #fff;
+}
+
+.p7-button {
+	z-index: 6;
+	display: none;
+}
+
+.page8 {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	z-index: 8;
+}
+
+.page8 img {
+	margin-top: 2.97rem;
+	width: 5.36rem;
+	height: 7.54rem;
+	animation: card .2s 4 forwards alternate;
+}
+

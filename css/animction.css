@@ -1,0 +1,219 @@
+/*页面切换*/
+
+@keyframes op {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.op {
+	animation: op .5s linear;
+}
+
+
+/*放大动画*/
+
+@keyframes suofang {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.2);
+	}
+}
+
+.sufang {
+	animation: suofang 1s linear infinite alternate;
+}
+
+
+/*音乐动画*/
+
+@keyframes music {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*按钮出现动画*/
+
+@keyframes btn-in {
+	from {
+		transform: translateX(-6rem);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+.btn-in {
+	animation: btn-in 2s linear forwards;
+}
+
+.boom {
+	animation: suofang .7s alternate infinite linear;
+}
+
+
+/*烟花绽放*/
+
+@keyframes yanhua {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	80% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+
+/*灯笼摆动*/
+
+@keyframes baidong {
+	from {
+		transform: rotateZ(3deg);
+	}
+	to {
+		transform: rotateZ(-3deg);
+	}
+}
+
+
+/*烟花动画*/
+
+.flover {
+	z-index: -1;
+}
+
+.boom {
+	position: absolute;
+	width: 3.46rem;
+	top: 7.13rem;
+	left: 3.96rem;
+	z-index: -1;
+}
+
+.flover .yellow:nth-child(1) {
+	width: 2.07rem;
+	top: 5.92rem;
+	left: 2.81rem;
+	animatio: yanhua 2s infinite;
+}
+
+.flover .yellow:nth-child(2) {
+	width: 2.07rem;
+	inset: 0;
+	animation: yanhua 2s .5s infinite;
+}
+
+.flover .yellow:nth-child(3) {
+	width: 2.07rem;
+	top: 1.09rem;
+	left: 6.74rem;
+	animation: yanhua 2s .7s infinite;
+}
+
+.flover .red-s:nth-of-type(4) {
+	width: 2.55rem;
+	left: 1.61rem;
+	top: .14rem;
+	animation: yanhua 2s 1s infinite;
+}
+
+.flover .red-s:nth-of-type(5) {
+	width: 2.55rem;
+	left: -1.61rem;
+	top: 3.79rem;
+	animation: yanhua 2s 1s infinite;
+}
+
+.flover .red-s:nth-of-type(6) {
+	width: 2.55rem;
+	left: 4.68rem;
+	top: 6.27rem;
+	animation: yanhua 2s 1s infinite;
+}
+
+
+/*最后的卡片动画*/
+
+@keyframes card {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(.8);
+	}
+}
+
+
+/*加载页面动画*/
+
+.page1 .flover .yellow:nth-child(1) {
+	width: 2.07rem;
+	top: 2.07rem;
+	left: 1.67rem;
+	animation: yanhua 2s infinite;
+}
+
+.page1 .flover .yellow:nth-child(2) {
+	width: .88rem;
+	top: 3.82rem;
+	left: 1.23rem;
+	animation: yanhua 2s .5s infinite;
+}
+
+.page1 .flover .yellow:nth-child(3) {
+	width: 1.99rem;
+	top: 5.29rem;
+	left: -1.32rem;
+	animation: yanhua 2s .7s infinite;
+}
+
+.page1 .flover .yellow:nth-child(4) {
+	width: .83rem;
+	top: 6.44rem;
+	left: 4.14rem;
+	animation: yanhua 2s .8s infinite;
+}
+
+.page1 .flover .yellow:nth-child(5) {
+	width: 1.67rem;
+	top: 7.75rem;
+	left: 1.84rem;
+	animation: yanhua 2s 1s infinite;
+}
+
+.page1 .flover .red {
+	width: 1.61rem;
+	top: 2.43rem;
+	left: 4.97rem;
+	animation: yanhua 2s 1.5s infinite;
+}
+
+
+/*烟花动画 第一页部分*/
+
+.page1 .red-s {
+	width: 2.55rem;
+	top: 8.02rem;
+	left: 3.04rem;
+	animation: yanhua 2s .5s infinite;
+}
+
+.page1 .boom {
+	top: 8.87rem;
+	left: 2.22rem;
+}
