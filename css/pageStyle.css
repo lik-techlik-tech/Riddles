@@ -276,3 +276,19 @@ button {
 	animation: card .2s 4 forwards alternate;
 }
 
+
+@media (min-width: 750px) {
+  .page {
+    max-width: 750px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .audio-frame {
+    right: calc(50% - 375px + .31rem); 
+  }
+  
+  .yun {
+    width: 750px;
+  }
+}

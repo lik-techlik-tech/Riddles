@@ -2,8 +2,16 @@
 	font-size: 13.3333vw;
 }
 
+@media (min-width: 750px) {
+  :root {
+    font-size: 100px; 
+  }
+}
 body {
 	font-size: .3rem;
+	max-width: 750px; 
+	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 * {
@@ -16,6 +24,8 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
+	max-width: 750px; 
+	margin: 0 auto;
 }
 
 .page {
